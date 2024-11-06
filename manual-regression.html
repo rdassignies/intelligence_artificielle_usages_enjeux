@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Régression Linéaire Manuelle</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .controls {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+        .navigation {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cost-display {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Régression Linéaire Manuelle</h2>
+        <div class="navigation">
+            <a href="automatic.html">Voir la version automatique</a>
+        </div>
+        
+        <div class="controls">
+            <label for="a">Pente (a): </label>
+            <input type="number" id="a" step="0.1" value="1" oninput="updateLine()">
+            <label for="b">Ordonnée à l'origine (b): </label>
+            <input type="number" id="b" step="0.5" value="0" oninput="updateLine()">
+        </div>
+
+        <canvas id="scatterChart"></canvas>
+
+        <div class="cost-display">
+            <h3>Fonction de coût</h3>
+            <div>
+                <p>Coût total: <span id="totalCost"></span></p>
+                <div id="individualCosts"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const dataset = [
+            { x: 30, y: 250 },
+            { x: 40, y: 360 },
+            { x: 50, y: 500 },
+            { x: 60, y: 480 },
+            { x: 64, y: 420 },
+            { x: 70, y: 520 },
+            { x: 80, y: 600 },
+            { x: 90, y: 620 },
+            { x: 100, y: 700 }
+        ];
+
+        let theta = [0, 0]; // theta[0] = b (intercept), theta[1] = a (slope)
+
+        const ctx = document.getElementById('scatterChart').getContext('2d');
+        const scatterChart = new Chart(ctx, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Points de données',
+                    data: dataset,
+                    backgroundColor: 'blue'
+                }, {
+                    label: 'Droite de régression',
+                    type: 'line',
+                    data: generateLineData(),
+                    borderColor: 'red',
+                    fill: false,
+                }]
+            },
+            options: {
+            scales: {
+                x: { 
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Surface (m²)'
+                    }
+                },
+                y: { 
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Prix (k€)'
+                    }
+                }
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            return `${context.parsed.y}k€ pour ${context.parsed.x}m²`;
+                        }
+                    }
+                }
+            }
+        }
+        });
+
+        function model(X, theta) {
+            return X.map(x => theta[1] * x + theta[0]);
+        }
+
+        function generateLineData() {
+            const lineData = [];
+            for (let x = 20; x <= 110; x += 5) {
+                lineData.push({ x: x, y: theta[1] * x + theta[0] });
+            }
+            return lineData;
+        }
+
+        function calculateIndividualCosts(X, y, theta) {
+            const predictions = model(X, theta);
+            return predictions.map((pred, i) => ({
+                point: i + 1,
+                x: X[i],
+                y: y[i],
+                predicted: pred,
+                cost: Math.pow(pred - y[i], 2) / 2
+            }));
+        }
+
+        function updateLine() {
+            theta[1] = parseFloat(document.getElementById('a').value);
+            theta[0] = parseFloat(document.getElementById('b').value);
+            scatterChart.data.datasets[1].data = generateLineData();
+            scatterChart.update();
+            updateCosts();
+        }
+
+        function updateCosts() {
+            const X = dataset.map(point => point.x);
+            const y = dataset.map(point => point.y);
+            const individualCosts = calculateIndividualCosts(X, y, theta);
+            
+            const totalCost = individualCosts.reduce((sum, item) => sum + item.cost, 0) / individualCosts.length;
+            document.getElementById('totalCost').innerText = totalCost.toFixed(2);
+
+            const costsHtml = individualCosts.map(item => `
+                <div>
+                    Point ${item.point} (${item.x}, ${item.y}):
+                    Valeur prédite = ${item.predicted.toFixed(2)},
+                    Coût = ${item.cost.toFixed(2)}
+                </div>
+            `).join('');
+            
+            document.getElementById('individualCosts').innerHTML = costsHtml;
+        }
+
+        updateCosts();
+    </script>
+</body>
+</html>
