@@ -18,6 +18,11 @@ https://colab.research.google.com/drive/1Veq38eBTALfimrhl6BrGo3BTQ-pbMf6B#scroll
 
 https://colab.research.google.com/drive/14CnE-dfNStOE1epLo8glFuVrxXYGtE8m 
 
+## Les démonstrations regression linéaire
+
+[automatic-regression.html 
+](https://github.com/rdassignies/intelligence_artificielle_usages_enjeux/blob/main/automatic-regression.html)
+
 ## Les documents 
 
 https://huggingface.co/datasets/tblard/allocine 
