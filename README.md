@@ -14,6 +14,10 @@ Il vise à fournir aux étudiants des bases techniques pour comprendre et implé
 
 
 ## Les notebooks
+
+Outil notebookLM : https://notebooklm.google.com/ 
+
+
 https://colab.research.google.com/drive/1Veq38eBTALfimrhl6BrGo3BTQ-pbMf6B#scrollTo=soeuaBRhGMDU 
 
 https://colab.research.google.com/drive/14CnE-dfNStOE1epLo8glFuVrxXYGtE8m 
