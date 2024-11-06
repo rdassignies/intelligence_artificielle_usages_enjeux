@@ -20,8 +20,13 @@ https://colab.research.google.com/drive/14CnE-dfNStOE1epLo8glFuVrxXYGtE8m
 
 ## Les démonstrations regression linéaire
 
+[manual-regression.html 
+]
+https://github.com/rdassignies/intelligence_artificielle_usages_enjeux/blob/main/manual-regression.html 
+
 [automatic-regression.html 
 ](https://github.com/rdassignies/intelligence_artificielle_usages_enjeux/blob/main/automatic-regression.html)
+
 
 ## Les documents 
 
