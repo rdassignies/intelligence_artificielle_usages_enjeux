@@ -60,11 +60,7 @@ https://huggingface.co/datasets/tblard/allocine
 
 ## Exercices
 
-### Apprendre ses cours avec l'IA
 
-1. Choissisez un cours de droit que vous êtes en train d'apprendre
-2. Apprenez à manipuler le contenu de ce cours avec des outils d'IA
-3. Critiquer et améliorer
 
 ####  Générer une fiche d'arrêt à partir de cet arrêt de la Cour de cassation :
 
@@ -86,7 +82,13 @@ Les parties se disputent sur la qualification des faits car de celle-ci découle
 
 Exemple : M. Martel, ingénieur commercial, salarié de la société IBP, refuse de changer de lieu de travail car cela implique qu'il déménage à 800 km de son lieu de résidence habituel. Si la modification est substantielle, elle doit recevoir l'accord exprès du salarié, sinon elle n'est pas valable. Le changement de lieu de travail à plus de 800 km du lieu initialement prévu au contrat constitue-t-il une modification substantielle ou non substantielle du contrat de travail ?
 
+****************
+### Apprendre ses cours avec l'IA
 
+1. Choissisez un cours de droit que vous êtes en train d'apprendre
+2. Apprenez à manipuler le contenu de ce cours avec des outils d'IA
+3. Critiquer et améliorer
+*****************
 
 
 
