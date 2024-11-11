@@ -1,4 +1,4 @@
-# intelligence artificielle usages et enjeux - B1 HEAD
+# Intelligence artificielle usages et enjeux - B1 HEAD
 
 contact : rdassignies [at] protonmail.ch
 
