@@ -53,9 +53,11 @@ https://lab.dassignies.law/pedagogie/regression_lineaire_automatique/
 
 
 ## Les modèles en complément de ChatGPT : 
+
 **Outil notebookLM** : https://notebooklm.google.com/ 
 
-https://mistral.ai/fr/ 
+https://mistral.ai/fr/
+
 https://claude.ai
 
 ## Les exemples de jeux de données
