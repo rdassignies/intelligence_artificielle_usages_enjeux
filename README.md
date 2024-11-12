@@ -60,6 +60,10 @@ https://mistral.ai/fr/
 
 https://claude.ai
 
+https://mapify.so/fr/app/new
+
+
+
 ## Les exemples de jeux de données
 
 https://huggingface.co/datasets/tblard/allocine 
