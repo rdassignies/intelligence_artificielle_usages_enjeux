@@ -66,7 +66,29 @@ https://huggingface.co/datasets/tblard/allocine
 
 ## Exercices
 
+### Les bonnes pratiques en matière de prompting
 
+Rédiger une fiche de bonnes pratiques en matière de prompting.
+
+Cette fiche doit pouvoir être enregistrée au format PDF pour être réutilisée par la suite.
+
+### Rédiger un prompt qui illustre la notion de few-shot learning
+
+Vous devez rédiger un prompt qui montre comment anonymiser des données. Pour cela, vous devez fournir au modèle trois exemples d’anonymisation.
+
+### Rédiger un prompt qui permet d'apprendre la notion de syllogisme juridique
+
+Vous devez rédiger un prompt qui explique et illustre la notion de syllogisme.
+
+La réponse doit être sauvegardée sous forme de fiche, au format PDF, pour vos révisions.
+
+### Rédiger un prompt pour résumer une notion apprise en cours
+
+À partir d’un extrait d’un de vos cours, faites rédiger une synthèse sous forme de fiche.
+
+Procédez à l’analyse critique de cette fiche et, si besoin, modifiez-la.
+
+Cette fiche doit être sauvegardée au format PDF.
 
 ####  Générer une fiche d'arrêt à partir de cet arrêt de la Cour de cassation :
 
