@@ -98,7 +98,9 @@ Cette fiche doit être sauvegardée au format PDF.
 
 Cet exercice illustre la notion de synthèse (résumé) et d'analyse 
 
-https://www.courdecassation.fr/toutes-les-actualites/2022/11/07/code-de-deverrouillage-dun-ecran-de-telephone-et-cryptologie https://www.legifrance.gouv.fr/juri/id/JURITEXT000046583035?init=true&page=1&query=21-83.146&searchField=ALL&tab_selection=all
+https://www.courdecassation.fr/toutes-les-actualites/2022/11/07/code-de-deverrouillage-dun-ecran-de-telephone-et-cryptologie 
+
+https://www.legifrance.gouv.fr/juri/id/JURITEXT000046583035?init=true&page=1&query=21-83.146&searchField=ALL&tab_selection=all
 
 #### Générer l'analyse de cet arrêt et critiquer
 
