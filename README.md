@@ -62,7 +62,19 @@ https://claude.ai
 
 https://mapify.so/fr/app/new
 
+## Les notebooks "Cours python"
 
+Pour lancer des scripts python, vous pouvez utiliser colab pro (nécessite un compte Google) ou https://jupyter.org/try-jupyter/lab/ 
+
+[Introduction](https://colab.research.google.com/drive/1X3Nq8IRRPNkry30Y365HlVwDrim1oqNE?usp=sharing)
+
+[Deuxième partie : Les types de données et la manipulation en Python](https://colab.research.google.com/drive/1rS4olyJgrFpeemfuZ-cxiKdEvGm75qDe?usp=sharing)
+
+[Troisième partie : Comprendre les variables en Python](https://colab.research.google.com/drive/1VAhyskS0SOLyXEJQmWe3C8me5KM9md-M?usp=sharing)
+
+[Quatrième partie : Comprendre et utiliser les fonctions en Python](https://colab.research.google.com/drive/1Bz5okzFmVSea7t7g3fc4ngP00RJDfaEK?usp=sharing)
+
+[Cinquième partie : Utilisation des f-strings et intégration avec un modèle de langage (LLM)](https://colab.research.google.com/drive/1vcxMXfRWZncgC1oQCFZWae8mgUrrizrg?usp=sharing)
 
 ## Les exemples de jeux de données
 
