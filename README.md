@@ -4,13 +4,19 @@ contact : rdassignies [at] protonmail.ch
 
 # Devoirs à la maison
 
-SUJET : L'affaire COMPAS-ProPublica : analyse des enjeux et des risques de la justice prédictive en matière pénale
+Date limite: 20 décembre 2024
+
+### I - L'affaire COMPAS-ProPublica : analyse des enjeux et des risques de la justice prédictive en matière pénale
+
 **Consignes :**
+
 Vous rédigerez un rapport d'analyse (6000 mots environ) sur l'affaire COMPAS révélée par ProPublica, en mettant en évidence les enjeux juridiques, éthiques et sociétaux de l'utilisation d'algorithmes prédictifs dans la justice pénale.
 
-SUJET : L'avocat du futur : conception d'un outil d'intelligence artificielle pour la transformation de la profession d'avocat à l'horizon 2030
+### II -  L'avocat du futur : conception d'un outil d'intelligence artificielle pour la transformation de la profession d'avocat à l'horizon 2030
+
 **Consignes :**
-En vous basant sur une analyse de l'existant et une projection dans le futur, vous imaginerez et concevrez un outil d'IA innovant destiné aux avocats. Vous présenterez votre projet sous forme d'un dossier complet (4000 mots environ) et d'une présentation orale de type "pitch".
+
+En vous basant sur une analyse de l'existant et une projection dans le futur, vous imaginerez et concevrez un outil d'IA innovant destiné aux avocats. Vous présenterez votre projet sous forme d'un dossier complet (4000 mots environ) et d'une présentation powerpoint (ou équivalent ) de type "pitch".
 
 **Ces deux devoirs sont à rendre et à transmettre au format pdf**
 
